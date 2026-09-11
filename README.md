@@ -1,16 +1,16 @@
-# 💻 Laptop Price Prediction — Regression Analysis
+# 💻 Laptop Price Prediction ML
 
 Predictive model that estimates laptop prices based on technical specifications (RAM, CPU, GPU, storage, screen size, etc.), built with a business-oriented lens: not just "train a model," but understand *what actually drives price* and turn that into something usable.
 
-## 🎯 Objective
+## Objective
 
 Build a regression model to estimate the price of a laptop from its specs, identify which features have the biggest impact on price, and provide a simple inference function that estimates the price of a new laptop given its configuration.
 
-## 📊 Dataset
+## Dataset
 
 [Laptop Pricing Dataset](https://www.kaggle.com/datasets) — public dataset from Kaggle containing 238 laptops with features such as manufacturer, category, GPU, OS, CPU core, screen size, CPU frequency, RAM, SSD storage, weight, and price.
 
-## 🛠️ Tools & Libraries
+## Tools & Libraries
 
 - Python (pandas, numpy)
 - scikit-learn (Linear Regression, Random Forest)
@@ -57,5 +57,3 @@ predict_laptop_price(
 )
 # -> Estimated price: $X
 ```
-
-## 📂 Repository Structure
